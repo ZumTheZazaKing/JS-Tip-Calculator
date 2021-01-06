@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Tip Calculator</title>
+</head>
+<body>
+
+    <div id="container">
+
+        <p id="title">Tip Calculator</p>
+        <p id="desc">This will calculate the amount of tip you should give for the service!</p>
+        <br>
+        <p id="question">How much is the bill?</p>
+        <input type="number" id="userBill">
+        <br><br>
+        <button id="calculateTip" onclick="calculateTip()">Calculate</button>
+        <p id="results" class="hide">Sample Text</p>
+        <br>
+        <button id="reload" class="hide" onclick="reloadPage()">Go back</button>
+
+
+
+    </div>
+    
+</body>
+</html>
